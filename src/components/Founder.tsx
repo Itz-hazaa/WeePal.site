@@ -164,7 +164,7 @@ const Founder = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-primary">
-            Meet Your Child's Education Guide
+            About Founder
           </h2>
         </div>
 
@@ -192,7 +192,7 @@ const Founder = () => {
                 Mohammed Hassaan Ali
               </h3>
               <p className="text-accent font-semibold font-body">
-                Founder & Education Visionary (Age 19)
+                Founder - WeePal | Techshala
               </p>
             </div>
 
@@ -204,19 +204,19 @@ const Founder = () => {
                 },
                 {
                   text: "Built TechShala reaching 500+ students with robotics education",
-                  link: "https://weepal.in/techshala" // Update with your link
+                  link: "https://www.instagram.com/techshala.official?igsh=bzk2eWUyNnZmcmVs" // Update with your link
                 },
                 {
                   text: "Developed voice-controlled humanoid robot & serving robot",
-                  link: "https://share.google/robotics-projects" // Update with your link
+                  link: "https://youtu.be/aEdI1yXOZFs?si=LzZOOo3Isn4qThNy" // Update with your link
                 },
                 {
                   text: "Created robotics curriculum adopted by 5+ Hyderabad schools",
-                  link: "https://share.google/curriculum" // Update with your link
+                  link: "https://www.instagram.com/techshala.official?igsh=bzk2eWUyNnZmcmVs" // Update with your link
                 },
                 {
                   text: "Building WeePal to revolutionize K-12 education",
-                  link: "#pilot"
+                  link: "www.weepal.in"
                 },
               ].map((item, index) => (
                 <li
@@ -241,7 +241,7 @@ const Founder = () => {
             <div className="bg-secondary rounded-xl p-5 mt-6">
               <Quote className="w-6 h-6 text-accent mb-2" />
               <blockquote className="text-foreground font-body italic text-lg leading-relaxed">
-                "Every child deserves academics that spark curiosity, not just marks."
+                "Let Your Child Be The Next Hassaan."
               </blockquote>
               <cite className="text-muted-foreground text-sm mt-2 block not-italic font-semibold">
                 — Hassaan
