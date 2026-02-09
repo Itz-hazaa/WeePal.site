@@ -137,7 +137,7 @@ const Founder = () => {
             <div className="bg-secondary rounded-xl p-5 mt-6">
               <Quote className="w-6 h-6 text-accent mb-2" />
               <blockquote className="text-foreground font-body italic text-lg leading-relaxed">
-                "Teaching is in my blood!"
+                "Every child deserves academics that spark curiosity, not just marks."
               </blockquote>
               <cite className="text-muted-foreground text-sm mt-2 block not-italic font-semibold">
                 — Hassaan
