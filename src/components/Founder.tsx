@@ -204,11 +204,11 @@ const Founder = () => {
                 },
                 {
                   text: "Built TechShala reaching 500+ students with robotics education",
-                  link: "https://www.instagram.com/techshala.official?igsh=bzk2eWUyNnZmcmVs" // Update with your link
+                  link: "https://www.techshala.org" // Update with your link
                 },
                 {
                   text: "Developed voice-controlled humanoid robot & serving robot",
-                  link: "https://youtu.be/aEdI1yXOZFs?si=LzZOOo3Isn4qThNy" // Update with your link
+                  link: "https://youtu.be/7X1w3YLOLsk?si=dPfGbZYGKRQFlL5u" // Update with your link
                 },
                 {
                   text: "Created robotics curriculum adopted by 5+ Hyderabad schools",
@@ -216,7 +216,7 @@ const Founder = () => {
                 },
                 {
                   text: "Building WeePal to revolutionize K-12 education",
-                  link: "www.weepal.in"
+                  link: "https://www.instagram.com/littleweepal?igsh=MThxMjYzM3cxeHFjbg=="
                 },
               ].map((item, index) => (
                 <li
