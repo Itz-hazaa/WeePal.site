@@ -256,7 +256,7 @@ const Hero = () => {
               Book Your Child's FREE Demo Class Today
             </h2>
             <p className="text-muted-foreground text-sm mb-6">
-              30-minute risk-free session with our expert teachers
+              60-minute risk-free session with our expert teachers
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
