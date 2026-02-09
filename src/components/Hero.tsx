@@ -406,13 +406,14 @@ const Hero = () => {
               <span className="text-accent">THRIVE</span>
               <span className="text-accent">™</span>
             </h1> */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-lg lg:drop-shadow-2xl">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-2xl lg:drop-shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
   WeePal: Where Kids Learn to{" "}
-  <span className="text-accent drop-shadow-xl lg:drop-shadow-2xl">THINK</span>,{" "}
-  <span className="text-accent drop-shadow-xl lg:drop-shadow-2xl">CREATE</span>, and{" "}
-  <span className="text-accent drop-shadow-xl lg:drop-shadow-2xl">THRIVE</span>
-  <span className="text-accent drop-shadow-xl lg:drop-shadow-2xl">™</span>
+  <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">THINK</span>,{" "}
+  <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">CREATE</span>, and{" "}
+  <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">THRIVE</span>
+  <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">™</span>
 </h1>
+
 
 
             <p className="text-lg sm:text-xl font-body opacity-90 max-w-lg">
