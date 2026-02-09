@@ -399,13 +399,21 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left: Text */}
           <div className="text-primary-foreground space-y-6 animate-fade-in-up">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground">
+            {/* <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground">
               WeePal: Where Kids Learn to{" "}
               <span className="text-accent">THINK</span>,{" "}
               <span className="text-accent">CREATE</span>, and{" "}
               <span className="text-accent">THRIVE</span>
               <span className="text-accent">™</span>
-            </h1>
+            </h1> */}
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-md lg:drop-shadow-xl">
+  WeePal: Where Kids Learn to{" "}
+  <span className="text-accent drop-shadow-lg">THINK</span>,{" "}
+  <span className="text-accent drop-shadow-lg">CREATE</span>, and{" "}
+  <span className="text-accent drop-shadow-lg">THRIVE</span>
+  <span className="text-accent drop-shadow-lg">™</span>
+</h1>
+
 
             <p className="text-lg sm:text-xl font-body opacity-90 max-w-lg">
               Blending Strong Academics with Real-World Skills
