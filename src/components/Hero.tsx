@@ -406,12 +406,12 @@ const Hero = () => {
               <span className="text-accent">THRIVE</span>
               <span className="text-accent">™</span>
             </h1> */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-md lg:drop-shadow-xl">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-lg lg:drop-shadow-2xl">
   WeePal: Where Kids Learn to{" "}
-  <span className="text-accent drop-shadow-lg">THINK</span>,{" "}
-  <span className="text-accent drop-shadow-lg">CREATE</span>, and{" "}
-  <span className="text-accent drop-shadow-lg">THRIVE</span>
-  <span className="text-accent drop-shadow-lg">™</span>
+  <span className="text-accent drop-shadow-xl lg:drop-shadow-2xl">THINK</span>,{" "}
+  <span className="text-accent drop-shadow-xl lg:drop-shadow-2xl">CREATE</span>, and{" "}
+  <span className="text-accent drop-shadow-xl lg:drop-shadow-2xl">THRIVE</span>
+  <span className="text-accent drop-shadow-xl lg:drop-shadow-2xl">™</span>
 </h1>
 
 
