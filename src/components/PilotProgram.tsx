@@ -74,7 +74,7 @@ const PilotProgram = () => {
                   {
                     emoji: "💬",
                     title: "Personalized program tailored to your feedback",
-                    desc: "Your input directly influences how WeePal evolves",
+                    desc: "Shape your child's perfect learning experience",
                   },
                   {
                     emoji: "⭐",
