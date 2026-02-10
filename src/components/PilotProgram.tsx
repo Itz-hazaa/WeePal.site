@@ -15,7 +15,7 @@ const PilotProgram = () => {
             </h2>
           </div>
           <p className="text-accent font-bold text-lg mb-8 font-body">
-            Starting March 15th
+            Starting March 25th
           </p>
 
           <div className="grid md:grid-cols-2 gap-10">
@@ -30,7 +30,7 @@ const PilotProgram = () => {
               <div>
                 <span className="text-accent font-bold text-sm uppercase tracking-wide">WHO</span>
                 <p className="mt-1 text-primary-foreground/90">
-                  Ages 6-16 (Grade 1-10), max 25 kids/class
+                  Ages 6-14 (Grade 1-10), max 25 kids/class
                 </p>
               </div>
               <div>
