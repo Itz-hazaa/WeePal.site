@@ -50,7 +50,7 @@ const FinalCTA = () => {
     <section className="bg-orange-gradient py-10 sm:py-14">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold !text-accent-foreground mb-3">
-          Only 25 Spots Left — March 15th Start
+          Only 25 Spots Left — March 25th Start
         </h2>
         <p className="text-accent-foreground/90 text-lg mb-8 font-body">
           10 weeks · Live classes · Money-back guarantee
