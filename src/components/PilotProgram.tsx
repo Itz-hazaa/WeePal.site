@@ -24,7 +24,7 @@ const PilotProgram = () => {
               <div>
                 <span className="text-accent font-bold text-sm uppercase tracking-wide">WHAT</span>
                 <p className="mt-1 text-primary-foreground/90">
-                  10-week LIVE online program (3x/week + 2x/week Real world skills, 45-min classes)
+                  10-week LIVE online program (3x/week Academic + 2x/week Real world skills, 45-min classes)
                 </p>
               </div>
               <div>
