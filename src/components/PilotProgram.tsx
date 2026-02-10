@@ -15,7 +15,7 @@ const PilotProgram = () => {
             </h2>
           </div>
           <p className="text-accent font-bold text-lg mb-8 font-body">
-            Start on the 25th of every month
+            Starting March 25th 
           </p>
 
           <div className="grid md:grid-cols-2 gap-10">
