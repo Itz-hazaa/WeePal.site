@@ -11,7 +11,7 @@ const PilotProgram = () => {
               <Rocket className="w-6 h-6 text-accent-foreground" />
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold !text-primary-foreground">
-              WeePal GrowEasy(Foundation) Program
+              WeePal Foundation Program
             </h2>
           </div>
           <p className="text-accent font-bold text-lg mb-8 font-body">
