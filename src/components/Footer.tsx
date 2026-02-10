@@ -124,7 +124,7 @@ const Footer = () => {
             <h4 className="font-bold font-body mb-2 text-primary-foreground">Quick Links</h4>
             <div className="space-y-1">
               {[
-                { label: "Pilot Program", href: "#pilot" },
+                { label: "Foundation Program", href: "#pilot" },
                 { label: "Our Teachers", href: "#teachers" },
                 { label: "Book Demo", href: "#demo" },
                 { label: "About Founder", href: "#founder" },
