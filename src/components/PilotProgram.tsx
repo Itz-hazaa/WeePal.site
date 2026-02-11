@@ -100,7 +100,7 @@ const PilotProgram = () => {
                   </li>
                 ))}
               </ul>              
-              <a
+              {/* <a
   
                 href="https://wa.me/message/WDZQSMTFKZDDE1?text=Hi!%20I%20want%20to%20reserve%20a%20Pilot%20Program%20spot%20for%20my%20child."
                 target="_blank"
@@ -108,7 +108,16 @@ const PilotProgram = () => {
                 className="mt-8 inline-flex items-center gap-2 bg-accent text-accent-foreground px-8 py-4 rounded-xl font-bold text-lg shadow-orange hover:opacity-90 transition-all active:scale-[0.98]"
               >
                  Reserve Program Spot →
-              </a>
+              </a> */}
+              <a
+  href="https://wa.me/message/WDZQSMTFKZDDE1?text=Hi!%20I%E2%80%99d%20like%20to%20reserve%20a%20Pilot%20Program%20spot%20for%20my%20child."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-8 inline-flex items-center gap-2 bg-accent text-accent-foreground px-8 py-4 rounded-xl font-bold text-lg shadow-orange hover:opacity-90 transition-all active:scale-[0.98]"
+>
+  Reserve Program Spot →
+</a>
+
 
             </div>
           </div>
