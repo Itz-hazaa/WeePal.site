@@ -55,15 +55,16 @@ const DemoClasses = () => {
             <p className="text-muted-foreground text-sm mt-3 mb-6">
               Or reach us instantly on WhatsApp
             </p>
-            <a
-              href="https://wa.me/message/WDZQSMTFKZDDE1?text=Hi!%20I'd%20like%20to%20book%20a%20FREE%20demo%20class%20for%20my%20child."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-[#25D366] text-accent-foreground px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:opacity-90 transition-all active:scale-[0.98] w-full sm:w-auto justify-center"
-            >
-              <MessageCircle className="w-6 h-6" />
-              Book Demo on WhatsApp →
-            </a>
+           <a
+  href="https://wa.me/917842012006?text=Hi!%20Book%20FREE%2060-min%20WeePal%20demo%20class%20for%20my%20child."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-3 bg-[#25D366] text-accent-foreground px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:opacity-90 transition-all active:scale-[0.98] w-full sm:w-auto justify-center"
+>
+  <MessageCircle className="w-6 h-6" />
+  Book Demo on WhatsApp →
+</a>
+
 
           </div>
         </div>
