@@ -419,7 +419,7 @@ const Hero = () => {
             <p className="text-lg sm:text-xl font-body opacity-90 max-w-lg">
               Blending Strong Academics with Real-World Skills
               <br />
-              for Ages 6-16
+              for Ages 6-14
             </p>
 
             {/* Stats */}
