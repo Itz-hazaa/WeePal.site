@@ -30,7 +30,7 @@ const PilotProgram = () => {
               <div>
                 <span className="text-accent font-bold text-sm uppercase tracking-wide">WHO</span>
                 <p className="mt-1 text-primary-foreground/90">
-                  Ages 8-14 (Grade 1-9), max 20 kids/class
+                  Ages 8-14 (Grade 3-9), max 20 kids/class
                 </p>
               </div>
               <div>
