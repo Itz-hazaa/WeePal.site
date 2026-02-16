@@ -597,7 +597,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left: Text */}
-          <div className="text-primary-foreground space-y-6 animate-fade-in-up">
+          {/* <div className="text-primary-foreground space-y-6 animate-fade-in-up">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-2xl lg:drop-shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
               WeePal: Where Kids Learn to{" "}
               <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">THINK</span>,{" "}
@@ -610,7 +610,20 @@ const Hero = () => {
               Blending Strong Academics with Real-World Skills
               <br />
               for Ages 6-14
-            </p>
+            </p> */}
+            <div className="text-primary-foreground space-y-6 animate-fade-in-up">
+  <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-2xl lg:drop-shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
+    WeePal: We don't offer courses; we deliver the{" "}
+    <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">ultimate learning ecosystem</span>
+    <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">™</span>
+  </h1>
+
+  <p className="text-lg sm:text-xl font-body opacity-90 max-w-lg">
+    Beyond courses: The premier ecosystem blending strong academics with real-world skills
+    <br />
+    for everyone
+  </p>
+</div>
 
             {/* Stats */}
             <div className="flex flex-wrap gap-6 pt-4">
