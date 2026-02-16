@@ -615,8 +615,12 @@ const Hero = () => {
             <div className="text-primary-foreground space-y-6 animate-fade-in-up">
   <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-2xl lg:drop-shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
     WeePal: We don't offer courses; we deliver the{" "}
-    <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">Ultimate Learning Ecosystem</span>
-    <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">™</span>
+    {/* <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">Ultimate Learning Ecosystem</span>
+    <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">™</span> */}
+      <span className="text-accent drop-shadow-[0_0_0_4px_theme(colors.accent/0.9)] drop-shadow-[0_25px_50px_rgba(255,165,0,0.9)] lg:drop-shadow-[0_35px_70px_rgba(255,165,0,0.95)] shadow-2xl">
+  Ultimate Learning Ecosystem<span className="text-xs ml-1">™</span>
+</span>
+
   </h1>
 
   <p className="text-lg sm:text-xl font-body opacity-90 max-w-lg">
