@@ -597,13 +597,18 @@ const Hero = () => {
  <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left: Text */}
-           {/* <div className="text-primary-foreground space-y-6 animate-fade-in-up">
+            <div className="text-primary-foreground space-y-6 animate-fade-in-up">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-2xl lg:drop-shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
               WeePal: Where Kids Learn to{" "}
-              <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">THINK</span>,{" "}
+              {/* <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">THINK</span>,{" "}
               <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">CREATE</span>, and{" "}
               <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">THRIVE</span>
-              <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">™</span>
+              <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">™</span> */}
+                <span className="text-accent drop-shadow-[0_0_0_3px_theme(colors.accent/0.85)] drop-shadow-[0_25px_50px_rgba(255,165,0,0.9)] lg:drop-shadow-[0_35px_70px_rgba(255,165,0,0.95)] shadow-2xl">THINK</span>,{" "}
+<span className="text-accent drop-shadow-[0_0_0_3px_theme(colors.accent/0.85)] drop-shadow-[0_25px_50px_rgba(255,165,0,0.9)] lg:drop-shadow-[0_35px_70px_rgba(255,165,0,0.95)] shadow-2xl">CREATE</span>, and{" "}
+<span className="text-accent drop-shadow-[0_0_0_3px_theme(colors.accent/0.85)] drop-shadow-[0_25px_50px_rgba(255,165,0,0.9)] lg:drop-shadow-[0_35px_70px_rgba(255,165,0,0.95)] shadow-2xl">THRIVE</span>{" "}
+<span className="text-accent text-xs ml-1 drop-shadow-[0_0_0_2px_theme(colors.accent/0.85)] drop-shadow-[0_15px_30px_rgba(255,165,0,0.85)] shadow-xl">™</span>
+
             </h1>
 
             <p className="text-lg sm:text-xl font-body opacity-90 max-w-lg">
@@ -611,23 +616,8 @@ const Hero = () => {
               <br />
               for Ages 6-14
             </p> 
-   */}
-            <div className="text-primary-foreground space-y-6 animate-fade-in-up">
-  <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-display font-bold leading-tight !text-primary-foreground drop-shadow-2xl lg:drop-shadow-[0_25px_50px_rgba(0,0,0,0.5)]">
-    WeePal: We don't offer courses; we deliver the{" "}
-    {/* <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">Ultimate Learning Ecosystem</span>
-    <span className="text-accent drop-shadow-[0_20px_40px_rgba(255,165,0,0.8)] lg:drop-shadow-[0_30px_60px_rgba(255,165,0,0.9)]">™</span> */}
-      <span className="text-accent drop-shadow-[0_0_0_4px_theme(colors.accent/0.9)] drop-shadow-[0_25px_50px_rgba(255,165,0,0.9)] lg:drop-shadow-[0_35px_70px_rgba(255,165,0,0.95)] shadow-2xl">
-  Ultimate Learning Ecosystem<span className="text-xs ml-1">™</span>
-</span>
 
-  </h1>
-
-  <p className="text-lg sm:text-xl font-body opacity-90 max-w-lg">
-    Beyond courses: The premier ecosystem blending strong academics with real-world skills
-    {/* <br />
-    for everyone */}
-  </p>
+        
             {/* Stats */}
             <div className="flex flex-wrap gap-6 pt-4">
               <div className="text-center">
