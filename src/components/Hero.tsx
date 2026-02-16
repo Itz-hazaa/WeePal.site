@@ -584,7 +584,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-20" id="hero">
       {/* Background image with overlay */}
-      {/* <div className="absolute inset-0 z-0">
+       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
           alt="Happy kids learning and coding at WeePal"
@@ -592,23 +592,9 @@ const Hero = () => {
           loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/92 via-primary/85 to-primary/70" />
-      </div> */}
+      </div>
 
-<div className="absolute inset-0 z-0">
-  <img
-    src={heroImage}
-    alt="Happy kids learning and coding at WeePal"
-    className="w-full h-full object-cover brightness-75"
-    loading="eager"
-  />
-  <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/90 to-primary/85" />
-  <div className="absolute inset-0 bg-black/25" />
-</div>
-
-
-
-
-      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+ <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left: Text */}
            {/* <div className="text-primary-foreground space-y-6 animate-fade-in-up">
