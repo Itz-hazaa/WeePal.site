@@ -594,16 +594,17 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-primary/92 via-primary/85 to-primary/70" />
       </div> */}
 
-        <div className="absolute inset-0 z-0">
+  <div className="absolute inset-0 z-0">
   <img
     src={heroImage}
     alt="Happy kids learning and coding at WeePal"
-    className="w-full h-full object-cover"
+    className="w-full h-full object-cover brightness-50"
     loading="eager"
   />
-  <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/90 to-primary/85" />
-  <div className="absolute inset-0 bg-black/20" />
+  <div className="absolute inset-0 bg-gradient-to-r from-primary/97 via-primary/92 to-primary/90" />
+  <div className="absolute inset-0 bg-black/35" />
 </div>
+
 
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
