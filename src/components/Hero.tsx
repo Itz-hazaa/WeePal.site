@@ -598,10 +598,10 @@ const Hero = () => {
   <img
     src={heroImage}
     alt="Happy kids learning and coding at WeePal"
-    className="w-full h-full object-cover brightness-70"
+    className="w-full h-full object-cover brightness-75"
     loading="eager"
   />
-  <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/88 to-primary/85" />
+  <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/90 to-primary/85" />
   <div className="absolute inset-0 bg-black/25" />
 </div>
 
