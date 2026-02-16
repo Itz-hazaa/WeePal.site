@@ -574,7 +574,7 @@ const Hero = () => {
       .catch((err) => console.error("Sheet error:", err));
 
     // UPDATED WHATSAPP MESSAGE - includes name, grade, and "I want to know more"
-    const message = `Hi! I'm ${formData.name} (parent of Grade ${formData.grade} child)\\n\\nI want to know more about the WeePal Foundation Program!\\n\\nBest time to call: ${formData.time}`;
+    const message = `Hi! I'm ${formData.name} (parent of Grade ${formData.grade} child) I want to know more about the WeePal Foundation Program! Best time to call: ${formData.time}`;
     
     // ✅ FIXED: Use standard wa.me format with YOUR PHONE NUMBER
     const fullUrl = `https://wa.me/917842012006?text=${encodeURIComponent(message)}`;
@@ -584,7 +584,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-20" id="hero">
       {/* Background image with overlay */}
-      <div className="absolute inset-0 z-0">
+      {/* <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
           alt="Happy kids learning and coding at WeePal"
@@ -592,7 +592,19 @@ const Hero = () => {
           loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/92 via-primary/85 to-primary/70" />
-      </div>
+      </div> */}
+
+        <div className="absolute inset-0 z-0">
+  <img
+    src={heroImage}
+    alt="Happy kids learning and coding at WeePal"
+    className="w-full h-full object-cover"
+    loading="eager"
+  />
+  <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/90 to-primary/85" />
+  <div className="absolute inset-0 bg-black/20" />
+</div>
+
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
