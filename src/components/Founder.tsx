@@ -271,26 +271,11 @@ const founders = [
     initials: "MH",
     image: founderImage,
     achievements: [
-      {
-        text: "Started teaching B.Tech/M.Tech engineers at age 11 (NDTV featured)",
-        link: "https://share.google/58DdcppJO8XFlX1fm"
-      },
-      {
-        text: "Built TechShala reaching 500+ students with robotics education",
-        link: "https://www.techshala.org"
-      },
-      {
-        text: "Developed voice-controlled humanoid robot & serving robot",
-        link: "https://youtu.be/7X1w3YLOLsk?si=dPfGbZYGKRQFlL5u"
-      },
-      {
-        text: "Created robotics curriculum adopted by 5+ Hyderabad schools",
-        link: "https://www.instagram.com/techshala.official"
-      },
-      {
-        text: "Building WeePal to revolutionize K-12 education",
-        link: "https://www.instagram.com/littleweepal"
-      },
+      { text: "Started teaching B.Tech/M.Tech engineers at age 11 (NDTV featured)", link: "https://share.google/58DdcppJO8XFlX1fm" },
+      { text: "Built TechShala reaching 500+ students with robotics education", link: "https://www.techshala.org" },
+      { text: "Developed voice-controlled humanoid robot & serving robot", link: "https://youtu.be/7X1w3YLOLsk?si=dPfGbZYGKRQFlL5u" },
+      { text: "Created robotics curriculum adopted by 5+ Hyderabad schools", link: "https://www.instagram.com/techshala.official" },
+      { text: "Building WeePal to revolutionize K-12 education", link: "https://www.instagram.com/littleweepal" },
     ],
     links: [
       { icon: ExternalLink, href: "https://www.techshala.org", label: "TechShala" },
@@ -316,14 +301,14 @@ const founders = [
   },
 ];
 
-const Founder = () => {
+export default function Founder() {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
     <section id="founder" className="py-16 sm:py-24 bg-background section-padding relative overflow-hidden" ref={ref}>
       <div className="absolute top-10 right-10 w-56 h-56 bg-primary/5 rounded-full blur-3xl" />
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
@@ -336,86 +321,61 @@ const Founder = () => {
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">The passionate team behind WeePal</p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 max-w-7xl mx-auto">
-          {founders.map((founder, i) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16">
+          {founders.map((f, i) => (
             <motion.div
-              key={founder.name}
+              key={f.name}
               initial={{ opacity: 0, y: 25 }}
               animate={isVisible ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="group hover:shadow-brand-xl hover:-translate-y-2 transition-all duration-300 bg-background rounded-2xl p-7 border border-border/40"
+              className="group bg-background rounded-2xl p-7 border border-border/40 hover:shadow-brand-xl hover:border-primary/30 hover:-translate-y-2 transition-all duration-300"
             >
-              {/* Avatar */}
               <div className="relative mb-6 mx-auto">
-                {founder.image ? (
-                  <div className="w-64 h-64 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-2xl overflow-hidden shadow-warm-lg mx-auto">
-                    <img
-                      src={founder.image}
-                      alt={`${founder.name} - ${founder.role} of WeePal | TechShala`}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
+                {f.image ? (
+                  <>
+                    <div className="w-64 h-64 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-2xl overflow-hidden shadow-warm-lg mx-auto">
+                      <img src={f.image} alt={`${f.name} - ${f.role}`} className="w-full h-full object-cover" loading="lazy" />
+                    </div>
+                    <div className="absolute -bottom-3 -right-3 w-64 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-2xl border-2 border-accent/30 -z-10" />
+                  </>
                 ) : (
                   <div className="w-48 h-48 sm:w-40 sm:h-40 lg:w-44 lg:h-44 bg-gradient-to-br from-primary/15 to-primary/5 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-105 transition-transform">
-                    <span className="text-3xl sm:text-4xl font-display font-700 text-primary">{founder.initials}</span>
+                    <span className="text-3xl sm:text-4xl font-display font-700 text-primary">{f.initials}</span>
                   </div>
                 )}
-                {founder.image && (
-                  <div className="absolute -bottom-3 -right-3 w-48 h-48 sm:w-40 sm:h-40 lg:w-44 lg:h-44 rounded-2xl border-2 border-accent/30 -z-10" />
-                )}
               </div>
 
-              {/* Name & Role */}
               <div className="text-center space-y-2 mb-6">
-                <h3 className="text-2xl lg:text-2xl font-display font-bold text-primary">{founder.name}</h3>
-                <p className="text-accent font-semibold font-body text-lg">{founder.role}</p>
+                <h3 className="text-2xl font-display font-bold text-primary">{f.name}</h3>
+                <p className="text-accent font-semibold text-lg">{f.role}</p>
               </div>
 
-              {/* Content: Achievements/Bio/Quote */}
-              {founder.achievements?.length > 0 ? (
+              {f.achievements?.length ? (
                 <ul className="space-y-3 mb-6">
-                  {founder.achievements.map((item, index) => (
+                  {f.achievements.map((item, idx) => (
                     <li key={item.text} className="flex items-start gap-3 text-foreground/85 group/item">
-                      <span className="text-accent font-bold mt-1.5 flex-shrink-0 w-6 text-center">
-                        {index + 1}.
-                      </span>
-                      <a
-                        href={item.link}
-                        target={item.link.startsWith('http') ? '_blank' : '_self'}
-                        rel={item.link.startsWith('http') ? 'noopener noreferrer' : ''}
-                        className="hover:text-primary transition-all duration-200 underline underline-offset-4 decoration-accent/50 hover:decoration-primary hover:no-underline group-hover/item:text-primary font-medium text-sm leading-relaxed"
-                      >
+                      <span className="text-accent font-bold mt-1.5 flex-shrink-0 w-6 text-center">{idx + 1}.</span>
+                      <a href={item.link} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-all duration-200 underline underline-offset-4 decoration-accent/50 hover:decoration-primary hover:no-underline group-hover/item:text-primary font-medium text-sm leading-relaxed">
                         {item.text}
                       </a>
                     </li>
                   ))}
                 </ul>
               ) : (
-                <p className="text-sm text-muted-foreground text-center leading-relaxed mb-6 px-2">{founder.bio}</p>
+                <p className="text-sm text-muted-foreground text-center leading-relaxed mb-6 px-2">{f.bio}</p>
               )}
 
-              {/* Quote for Arsheena */}
-              {founder.quote && (
+              {f.quote && (
                 <div className="bg-secondary rounded-xl p-5 mb-6">
                   <Quote className="w-6 h-6 text-accent mb-2" />
-                  <blockquote className="text-foreground font-body italic text-base leading-relaxed">
-                    {founder.quote}
-                  </blockquote>
+                  <blockquote className="text-foreground font-body italic text-base leading-relaxed">{f.quote}</blockquote>
                 </div>
               )}
 
-              {/* Links */}
-              {founder.links.length > 0 && (
+              {f.links.length > 0 && (
                 <div className="flex items-center justify-center gap-2 flex-wrap pt-4 border-t border-border/50">
-                  {founder.links.map((l) => (
-                    <a
-                      key={l.href}
-                      href={l.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-medium text-muted-foreground hover:text-primary bg-accent rounded-full px-3 py-1.5 transition-colors"
-                    >
+                  {f.links.map((l) => (
+                    <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-xs font-medium text-muted-foreground hover:text-primary bg-accent rounded-full px-3 py-1.5 transition-colors">
                       <l.icon className="w-3.5 h-3.5" />
                       {l.label}
                     </a>
@@ -428,6 +388,5 @@ const Founder = () => {
       </div>
     </section>
   );
-};
+}
 
-export default Founder;
