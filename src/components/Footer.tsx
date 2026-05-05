@@ -103,7 +103,7 @@ const Footer = () => {
                 +91 78420 12006‎ 
               </a>
               <a href="tel:+917842012006" className="hover:text-accent transition-colors">
-               /n +971-582887447
+               , +971-582887447
               </a>
             </p>
             <p className="text-primary-foreground/80 text-sm mt-1">
