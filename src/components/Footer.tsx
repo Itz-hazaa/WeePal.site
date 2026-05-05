@@ -102,6 +102,9 @@ const Footer = () => {
               <a href="tel:+917842012006" className="hover:text-accent transition-colors">
                 +91 78420 12006
               </a>
+              <a href="tel:+917842012006" className="hover:text-accent transition-colors">
+                +971-582887447
+              </a>
             </p>
             <p className="text-primary-foreground/80 text-sm mt-1">
               WhatsApp:{" "}
@@ -115,7 +118,7 @@ const Footer = () => {
               </a>
             </p>
             <p className="text-primary-foreground/80 text-sm mt-1">
-              Hyderabad, India
+             #VILLA NO 45, BANIYAS EAST 7TH, ABU DHABI (U. A. E)
             </p>
           </div>
 
